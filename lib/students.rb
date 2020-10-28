@@ -3,7 +3,7 @@
 def highest_student_gpa
   "SELECT gpa FROM students 
   ORDER BY gpa
-  DEC LIMIT 1;"
+  ASC LIMIT 1;"
 end
 
 def lowest_student_gpa
